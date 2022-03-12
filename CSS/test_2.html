@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test_2</title>
+        <!--指定编码模式utf-8，若不加这一句则可能出现乱码-->
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            #div1
+            {
+                border-width: 3px;
+                border-style: dashed;
+                border-color: teal;
+            }
+            #div2{border: 1px solid red;} /*简写形式*/
+            ol{list-style-type: lower-roman;}  /*有序列表*/
+            ul{list-style-type: circle;}  /*无序列表*/
+            #ul1{list-style-image: url("icon.ico");}
+            #ul2{list-style-type: none;}
+
+            a{color: hotpink;}
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="div1">
+            <p>虚线边框</p>
+        </div>
+
+        <h3>无序列表</h3>
+        <ul>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+        </ul>
+
+        <h3>有序列表</h3>
+        <ol>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+        </ol>
+
+        <ul id="ul1">
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+        </ul>
+
+        <ul id="ul2">
+            <li><a href="https://www.baidu.com">Top1: 百度</a></li>
+            <li><a href="https://www.bilibili.com">Top2: bilibili</a></li>
+            <li><a href="https://www.icourse163.org">Top3: 慕课MOOC</a></li>
+        </ul>
+
+    </body>
+</html>

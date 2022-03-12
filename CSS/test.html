@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>test</title>
+
+        <!--指定编码模式utf-8，若不加这一句则可能出现乱码-->
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            .class1{color:purple;}
+            #box{color:red;width:100px;height:100px;}
+            #father1 div{color:red;width:100px;height:100px;}
+            #father2 span{color: BLUE;width:100px;height:100px;}
+            #p1{font-size:10px;}
+            #p2{font-size:16px;}
+            #p3{font-size:21px;}
+            
+            #p4{font-weight:100;}
+            #p5{font-weight:400;}
+            #p6{font-weight:700;}
+
+            #p7{font-style: italic;}
+            #p8{font-style: oblique;}
+
+            #p9{text-align: left;}
+            #p10{text-align: center;}
+            #p11{text-align: right;}
+
+            #p12{text-decoration: underline;}
+            #p13{text-decoration: line-through;}
+            #p14{text-decoration: overline;}
+
+            #p15{text-transform: uppercase;}
+            #p16{text-transform: lowercase;}
+            #p17{text-transform: capitalize;}
+
+            #p18{line-height: 30px;}
+            #p19{line-height: 10px;}
+            p{
+                text-indent: 28px;
+                font-size: 14px; /*缩进大小为字体大小的两倍*/
+            }
+            a{
+                text-decoration: none; /*去除超链接中的下划线*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">ABCDE</div>
+        <p id="box">段落p-id</p> <!--错误写法，id只能用一次(不会报错)-->
+        <div>QWERT</div>
+        <p class="class1">段落p-class</p>
+        
+        <div id="father1">
+            <div>red红色</div>
+            <span>默认</span>
+        </div>
+        <div id="father2">
+            <div>默认</div>
+            <span>blue蓝色</span>
+        </div>
+        <p id="p1">字体大小为10px</p>
+        <p id="p2">字体大小为16px</p>
+        <p id="p3">字体大小为21px</p>
+
+        <p id="p4">字体粗细为100</p>
+        <p id="p5">字体粗细为400</p>
+        <p id="p6">字体粗细为700</p>
+
+        <p id="p7">字体倾斜</p>
+
+        <p id="p9">左对齐</p>
+        <p id="p10">居中</p>
+        <p id="p11">右对齐</p>
+
+        <p id="p12">下划线</p>
+        <p id="p13">中划线</p>
+        <p id="p14">顶划线</p>
+
+        <p id="p15">sImgJLKgnT(转化为大写)</p>
+        <p id="p16">sImgJLKgnT(转化为小写)</p>
+        <p id="p17">sImgJLKgnT(首字母转化为大写)</p>
+
+        <p id="p18">行高30px</p>
+        <p id="p19">行高10px</p>
+    </body>
+
+</html>
