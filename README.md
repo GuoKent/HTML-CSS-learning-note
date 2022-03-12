@@ -1,2 +1,2 @@
 # Leading-End
-This is the repository of my Leading End learning record. Irregularly updated.
+This is the repository of my Leading End learning record, include HTML and CSS. Irregularly updated.
