@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+
+        <!--指定编码模式utf-8，若不加这一句则可能出现乱码-->
+        <meta http-equiv="Contest-Type" content="text/heml; charset=utf-8"/>
+
+        <!--style标签用于定义CSS样式-->
+        <style type="text/css">
+            table,tr,td,th{border:1px solid silver;} /*为表格添加边框*/
+            /*这里写CSS样式*/
+        </style>
+    </head>
+
+    <body>
+        <form name="test">
+            <!--value可以去掉，type表示输入格式为文本-->
+            <input type="text" value="Input"/><br/><br/>
+            <!--中间内容可去掉-->
+            <textarea rows="5" cols="10">默认内容</textarea>
+            <!--搭建一个选择下拉栏-->
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>C++</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>Matlab</option>
+            </select><br/>
+
+            性别:
+            <label><input type="radio" name="gender" value="男">男</label>
+            <label><input type="radio" name="gender" value="女">女</label>
+            <br/><br/>
+
+            你喜欢的水果(多选):<br/>
+            <label><input type="checkbox" name="fruit" value="苹果">苹果<label/>
+            <label><input type="checkbox" name="fruit" value="香蕉">香蕉<label/>
+            <label><input type="checkbox" name="fruit" value="西瓜">西瓜<label/>
+            <br/>
+            
+            <input type="submit" value="提交"/><br/>
+            <input type="file"/><br/>
+        </form>
+    </body>
+</html>
